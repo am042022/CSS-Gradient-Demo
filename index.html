@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script type="application/javascript" src='./index.js'></script>
+        <link rel='stylesheet' href='./index.css'>
+        <title>CSS Gradient Demo</title>
+    </head>
+    <body>
+        <h1>Hello World.</h1>
+        <div id='color-selector'>
+            <div id='color-selector-left'>
+                <h3 class='color-selector-title'>Color 1:</h3>
+                <select name='c1Selector' class='color-selector-dropdown' onchange="changeColor(1)">
+                    <option value='red'>Red</option>
+                    <option value='blue'>Blue</option>
+                    <option value='green'>Green</option>
+                    <option value='orange'>Orange</option>
+                    <option value='yellow'>Yellow</option>
+                    <option value='purple'>Purple</option>
+                </select>
+                <h3 id='color-selector-hex1' class='color-selector-title'>HEX Code:</h3>
+            </div>
+            <div id='color-selector-right'>
+                <h3 class='color-selector-title'>Color 2:</h3>
+                <select name='c2Selector' class='color-selector-dropdown' onchange="changeColor(2)">
+                    <option value='red'>Red</option>
+                    <option value='blue'>Blue</option>
+                    <option value='green'>Green</option>
+                    <option value='orange'>Orange</option>
+                    <option value='yellow'>Yellow</option>
+                    <option value='purple'>Purple</option>
+                </select>
+                <br>
+                <h3 id='color-selector-hex2' class='color-selector-title'>HEX Code:</h3>
+            </div>
+        </div>
+    </body>
+</html>

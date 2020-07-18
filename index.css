@@ -1,0 +1,45 @@
+:root{
+    --mouse-x: 10%;
+    --mouse-y: 10%;
+    --color-1: #0066ff;
+    --color-2: #00ff00;
+    --gradient-type:closest-corner;
+}
+
+h1{
+    text-align: center;
+    background: radial-gradient(circle closest-corner at var(--mouse-x) var(--mouse-y), var(--color-1), var(--color-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 15em;
+}
+
+#color-selector{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#color-selector-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#color-selector-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.color-selector-title{
+    font-size: 2em;
+}
+
+.color-selector-dropdown{
+    position: relative;
+    font-size: 2em;
+}
